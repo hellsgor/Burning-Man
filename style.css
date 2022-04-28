@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0 auto;
+    background:
+        linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%), url("images/header-bg.jpg") no-repeat #000000;
+    background-size: cover;
+}
+
+.header-container {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-top {
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left-side {
+    display: flex;
+}
+
+.header-right-side {
+    display: inline-block;
+}
+
+.logo {
+    width: 31px;
+    height: 48px;
+    background-image: url("images/logo.svg")
+}
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 69px;
+    padding: 0;
+    height: 48px;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin: 0 40px 0 0;
+    padding: 0;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.header-top a {
+    display: inline-block;
+    font-family: Anton, sans-serif;
+    font-size: 14px;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mini-offer {
+    font-family: Anton, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    padding: 0;
+    margin: 0 0 0 1px;
+}
+
+h1 {
+    font-family: Anton, sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 151px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 0;
+    margin: -10px 0 0 -2px;
+}
+
+h2 {
+    font-family: Anton, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 0;
+    margin: 0;    
+}
+
+h3 {
+    display: inline-block;
+    width: 300px;
+    
+    font-family: Anton, sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 0;
+    margin: 0; 
+}
+
+.header-offer a {
+    display: inline-block;
+    
+    font-family: Anton, sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+    background-color: transparent;
+
+    padding: 16px 50px 15px;
+    margin: 19px 0 0 0;
+
+    border: solid #FFFFFF 1px;
+    box-sizing: border-box;
+}
+
+.header-offer {
+   position: absolute;
+   left: 0;
+   top: 50%;
+   margin-top: -129px;
+}
+
+.about-container {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 113px;
+}
+
+.articles-block {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 36px;
+    flex-wrap: wrap;
+    margin: 56px 0 0;
+    padding: 0;
+}
+
+.article {
+    width: 564px;
+}
+
+.photos {
+    width: 100%;
+    margin: 67px 0 0;
+
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    height: 344px;
+}
+
+footer {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 113px;
+    display: flex;
+    column-gap: 55px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+footer p {
+    display: inline-block;
+    width: 244px;
+    height: 49px;
+    padding: 0;
+    margin: 0;
+}
