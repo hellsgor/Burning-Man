@@ -21,6 +21,7 @@ header {
     background:
         linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%), url("images/header-bg.jpg") no-repeat #000000;
     background-size: cover;
+    background-position: center center;
 }
 
 .header-container {
